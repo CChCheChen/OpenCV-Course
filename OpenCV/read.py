@@ -1,8 +1,8 @@
 import cv2 as cv
 
 #----------Reading images----------
-# img =cv.imread('Resources/Photos/cat.jpg')
-# imgL =cv.imread('Resources/Photos/cat_large.jpg')
+# img = cv.imread('Resources/Photos/cat.jpg')
+# imgL = cv.imread('Resources/Photos/cat_large.jpg')
 
 # cv.imshow('Cat', img)
 # cv.imshow('Cat Large', imgL)
@@ -21,6 +21,6 @@ while True:
             break
     else:
         break
-    
+
 capture.release()
 cv.destroyAllWindows()
